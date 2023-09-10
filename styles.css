@@ -1,0 +1,58 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.flex-item {
+    flex: 5;
+    margin: 10px;
+    /* border: 1px solid black; */
+  
+   
+}
+
+form>div{
+    display: flex;
+ 
+    /* border: 1px solid blue; */
+    width: 100%;
+    
+}
+
+
+#data{
+
+    width: 100%;
+}
+
+#width, #height{
+    margin-top: 12%;
+    margin-left: -9.5%;
+    width: 100%;    
+
+}
+
+
+#qr-color,#bg-color{
+    width: 20%;  
+    margin-top: 5%;
+
+}
+
+#download, #generate,#format{
+    margin-top: 2%;
+    width: 100%;
+
+}
+
+#download{
+    border: none;
+    background-color:forestgreen;
+}
+
+#generate{
+    background-color:dodgerblue;
+    border: none;
+}
+
